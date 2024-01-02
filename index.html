@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="https://www.allrecipes.com/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes App</title>
+  </head>
+  <body>
+    <div class="recipes-container">
+      <div class="search-area">
+        <div class="recipe-detail">
+        </div>
+        <div class="search-place">
+            <h2 class="title">Search Recipe</h2>
+            <div class="inp-search">
+              <input
+                type="search"
+                placeholder="Type The Category Of Recipe"
+                class="search-recipe"
+                autofocus
+              />
+              <button class="btn-search">Search</button>
+            </div>
+        </div>
+
+      </div>
+      <div class="recipe-area">
+        <div class="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="recipes-area-container"></div>
+      </div>
+    </div>
+
+    <!-- Main Js File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
